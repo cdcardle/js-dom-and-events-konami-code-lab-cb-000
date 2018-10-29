@@ -5,7 +5,7 @@ function init() {
     const key = parseInt(e.detail || e.which);
 
     let index = 0;
-    if (key === code[index])
+    if (key === code[index]) {
       index++;
       if (index === code.length) {
         alert("Secrets unlocked!");
